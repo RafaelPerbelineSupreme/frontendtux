@@ -224,6 +224,7 @@ class Header extends React.Component {
     this.showHide = this.showHide.bind(this);
     this.fetchGrupos = this.fetchGrupos.bind(this);
     this.fetchGrupos();
+    // this.fetchGrupos();
   }
 
   increment = async (qtdMax, idGrupo) => {
